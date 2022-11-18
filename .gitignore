@@ -1,0 +1,8 @@
+.stack-work/
+dist-new/
+tessoku-book.cabal
+*.log
+core
+*.hi
+*.o
+*~

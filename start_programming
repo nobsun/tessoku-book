@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+script -a -f -c zsh programming_session.log

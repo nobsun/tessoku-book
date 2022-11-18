@@ -1,0 +1,10 @@
+import Data.Time
+_prompt _ n = (utcToLocalTime <$> getCurrentTimeZone <*> getCurrentTime) >>= print >> return ">>> "
+:set prompt-function _prompt
+import Text.Show.Unicode
+:set -interactive-print=uprint
+:set -XLambdaCase -XMultiWayIf -XOverloadedStrings -XBangPatterns -XScopedTypeVariables
+:set editor catn
+import Text.Printf
+:def! l (\ s -> readFile s >>= sequence . (zipWith (printf "%4d    %s\n") [(1::Int)..]) . lines >> return (unwords ["::l", s]))
+:def! r (\ _ -> return "::e")
