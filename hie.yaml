@@ -1,2 +1,22 @@
 cradle:
   stack:
+    - path: "./test/spec.hs"
+      component: "tessoku-book:test:tessoku-book-test"
+
+    - path: "./test/LibSpec.hs"
+      component: "tessoku-book:test:tessoku-book-test"
+
+    - path: "./test/doctests.hs"
+      component: "tessoku-book:test:tessoku-book-doctest"
+
+    - path: "./test/LibSpec.hs"
+      component: "tessoku-book:test:tessoku-book-doctest"
+
+    - path: "./app/Main.hs"
+      component: "tessoku-book:exe:tessoku-book"
+
+    - path: "./app/a01/Main.hs"
+      component: "tessoku-book:exe:A01"
+
+    - path: "./src/Lib.hs"
+      component: "tessoku-book:lib"
