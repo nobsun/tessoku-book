@@ -48,6 +48,10 @@ executables:
   B01:
     main:                Main.hs
     source-dirs:         app/b01
+  
+  A02:
+    main:                Main.hs
+    source-dirs:         app/a02
 
 tests:
   tessoku-book-test:
