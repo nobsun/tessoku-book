@@ -40,6 +40,10 @@ executables:
     # - -with-rtsopts=-N
     dependencies:
     - tessoku-book
+  
+  A01:
+    main:                Main.hs
+    source-dirs:         app/a01
 
 tests:
   tessoku-book-test:
