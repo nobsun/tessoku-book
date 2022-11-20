@@ -53,6 +53,10 @@ executables:
     main:                Main.hs
     source-dirs:         app/a02
 
+  B02:
+    main:                Main.hs
+    source-dirs:         app/b02
+
 tests:
   tessoku-book-test:
     main:                spec.hs
