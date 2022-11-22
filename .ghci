@@ -1,6 +1,4 @@
-import Data.Time
-_prompt _ n = (utcToLocalTime <$> getCurrentTimeZone <*> getCurrentTime) >>= print >> return ">>> "
-:set prompt-function _prompt
+:set prompt ">>> "
 import Text.Show.Unicode
 :set -interactive-print=uprint
 :set -XLambdaCase -XMultiWayIf -XOverloadedStrings -XBangPatterns -XScopedTypeVariables
