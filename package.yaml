@@ -68,6 +68,10 @@ executables:
   A04:
     main:                Main.hs
     source-dirs:         app/a04
+  
+  B04:
+    main:                Main.hs
+    source-dirs:         app/b04
 
 tests:
   tessoku-book-test:
