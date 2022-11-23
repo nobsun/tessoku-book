@@ -26,6 +26,7 @@ dependencies:
 - utf8-string
 - time
 - hspec
+- array
 
 library:
   source-dirs: src
@@ -76,6 +77,10 @@ executables:
   A05:
     main:                Main.hs
     source-dirs:         app/a05
+  
+  A06:
+    main:                Main.hs
+    source-dirs:         app/a06
   
 tests:
   tessoku-book-test:
