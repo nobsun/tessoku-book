@@ -69,7 +69,7 @@ executables:
   A04:
     main:                Main.hs
     source-dirs:         app/a04
-  
+
   B04:
     main:                Main.hs
     source-dirs:         app/b04
@@ -77,15 +77,19 @@ executables:
   A05:
     main:                Main.hs
     source-dirs:         app/a05
-  
+
   A06:
     main:                Main.hs
     source-dirs:         app/a06
-  
+
   B06:
     main:                Main.hs
     source-dirs:         app/b06
-  
+
+  A07:
+    main:                Main.hs
+    source-dirs:         app/a07
+
 tests:
   tessoku-book-test:
     main:                spec.hs
