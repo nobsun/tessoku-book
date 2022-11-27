@@ -45,50 +45,80 @@ executables:
   A01:
     main:                Main.hs
     source-dirs:         app/a01
+    ghc-options:
+    - -rtsopts
 
   B01:
     main:                Main.hs
     source-dirs:         app/b01
+    ghc-options:
+    - -rtsopts
   
   A02:
     main:                Main.hs
     source-dirs:         app/a02
+    ghc-options:
+    - -rtsopts
 
   B02:
     main:                Main.hs
     source-dirs:         app/b02
+    ghc-options:
+    - -rtsopts
 
   A03:
     main:                Main.hs
     source-dirs:         app/a03
+    ghc-options:
+    - -rtsopts
 
   B03:
     main:                Main.hs
     source-dirs:         app/b03
+    ghc-options:
+    - -rtsopts
 
   A04:
     main:                Main.hs
     source-dirs:         app/a04
+    ghc-options:
+    - -rtsopts
 
   B04:
     main:                Main.hs
     source-dirs:         app/b04
+    ghc-options:
+    - -rtsopts
 
   A05:
     main:                Main.hs
     source-dirs:         app/a05
+    ghc-options:
+    - -rtsopts
 
   A06:
     main:                Main.hs
     source-dirs:         app/a06
+    ghc-options:
+    - -rtsopts
 
   B06:
     main:                Main.hs
     source-dirs:         app/b06
+    ghc-options:
+    - -rtsopts
 
   A07:
     main:                Main.hs
     source-dirs:         app/a07
+    ghc-options:
+    - -rtsopts
+
+  B07:
+    main:                Main.hs
+    source-dirs:         app/b07
+    ghc-options:
+    - -rtsopts
 
 tests:
   tessoku-book-test:

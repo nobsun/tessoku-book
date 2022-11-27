@@ -51,5 +51,8 @@ cradle:
     - path: "./app/a07/Main.hs"
       component: "tessoku-book:exe:A07"
 
+    - path: "./app/b07/Main.hs"
+      component: "tessoku-book:exe:B07"
+
     - path: "./src/Lib.hs"
       component: "tessoku-book:lib"
