@@ -10,3 +10,40 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
 
 動画では、Haskellプログラミングの様子を楽しんでいただければと思います。感想、コメントなどいただければ、大変うれしいです。
 
+## 動画へのリンク
+
+再生リスト（最新の動画が上）
+- [『競技プログラミングの鉄則』をHaskellで楽しむ](https://youtube.com/playlist?list=PLmilE0iwpTVuBPYT5ZRuVGaf_PXUofwDk)
+
+動画リスト（目次順）
+- [x] 序章
+    - [x] [入出力の雛形を書く](https://youtu.be/DLrNo26foiw)
+- [x] 1 章
+    - [x] [A01: The First Problem](https://youtu.be/5yHmgo2mybs)
+    - [x] [B01: A + B Proble](https://youtu.be/R-2rDO9Mbi0)
+    - [x] [A02: Linear Search]()
+    - [x] [B02: Divisor Check]()
+    - [x] [A03: Two Cards]()
+    - [x] [B03: Supermarket 1]()
+    - [x] [A04: Binary Representation 1]()
+    - [x] [B04: Binary Representation 2]()
+    - [x] [A05: Three Cards]()
+
+- [ ] 2 章
+    - [x] [A06: How Many Guests?]()
+    - [x] [B06: Lottery]()
+    - [x] [A07: Event Attendance]()
+    - [x] [B07: Convenience Store 2]()
+    - [ ] [A08: Two Dimensional Sum]()
+    - [ ] [B08: Counting Points]()
+    - [ ] [A09: Winter in ALGO Kingdom]()
+    - [ ] [B09: Papers]()
+    - [ ] [A10: Resort Hotel]()
+- 3 章
+- 4 章
+- 5 章
+- 6 章
+- 7 章
+- 8 章
+- 9 章
+- 10 章
