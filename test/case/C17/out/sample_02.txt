@@ -1,4 +1,0 @@
-binsearch
-math
-heuristics
-graph

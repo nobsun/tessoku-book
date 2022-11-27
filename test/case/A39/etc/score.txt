@@ -1,3 +1,0 @@
-Sample (0): sample_*
-Subtask1 (500): sample_*, sub1_*
-Subtask2 (500): sample_*, sub1_*, sub2_*

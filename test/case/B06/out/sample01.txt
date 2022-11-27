@@ -1,3 +1,0 @@
-win
-draw
-lose

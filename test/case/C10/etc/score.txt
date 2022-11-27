@@ -1,2 +1,0 @@
-Sample (0): sample_*
-All (1000): *

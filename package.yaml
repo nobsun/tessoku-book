@@ -120,6 +120,12 @@ executables:
     ghc-options:
     - -rtsopts
 
+  A08:
+    main:                Main.hs
+    source-dirs:         app/a08
+    ghc-options:
+    - -rtsopts
+
 tests:
   tessoku-book-test:
     main:                spec.hs

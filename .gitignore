@@ -1,5 +1,6 @@
 .stack-work/
 dist-new/
+test/case
 tessoku-book.cabal
 *.log
 core

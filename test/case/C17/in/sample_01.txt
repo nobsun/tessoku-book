@@ -1,7 +1,0 @@
-6
-A kyopuro
-A tessoku
-B book
-D
-C
-D
