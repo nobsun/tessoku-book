@@ -35,7 +35,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A07: Event Attendance](https://youtu.be/UFHMs9b0ceQ)
     - [x] [B07: Convenience Store 2](https://youtu.be/JDySOCctVbs)
     - [x] [A08: Two Dimensional Sum](https://youtu.be/h-OUrRzfdN4)
-    - [ ] [B08: Counting Points]()
+    - [x] [B08: Counting Points]()
     - [ ] [A09: Winter in ALGO Kingdom]()
     - [ ] [B09: Papers]()
     - [ ] [A10: Resort Hotel]()
