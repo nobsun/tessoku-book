@@ -1,16 +1,24 @@
 module Main where
 
+import qualified Data.ByteString.Char8 as B
 import Data.Array ( Array, elems, (!), accumArray, listArray )
 import Data.List ( scanl' )
+import Data.Maybe
 
 main :: IO ()
-main = interact (encode . solve . decode)
+main = B.interact (encode . solve . decode)
 
-decode :: String -> [[Int]]
-decode =  map (map read . words) . lines
+decode :: B.ByteString -> [[Int]]
+decode =  map (map readInt . B.words) . B.lines
 
-encode :: [[Int]] -> String
-encode = unlines . map (unwords . map show)
+readInt :: B.ByteString -> Int
+readInt = fst . fromJust . B.readInt
+
+encode :: [[Int]] -> B.ByteString
+encode = B.unlines . map (B.unwords . map showInt)
+
+showInt :: Int -> B.ByteString
+showInt = B.pack . show
 
 solve :: [[Int]] -> [[Int]]
 solve dds = case dds of

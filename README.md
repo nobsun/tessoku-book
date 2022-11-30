@@ -18,6 +18,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
 動画リスト（目次順）
 - [x] 序章
     - [x] [入出力の雛形を書く](https://youtu.be/DLrNo26foiw)
+    - [x] [入出力の雛形改訂](https://youtu.be/QEViVLAChYo)
 - [x] 1 章
     - [x] [A01: The First Problem](https://youtu.be/5yHmgo2mybs)
     - [x] [B01: A + B Proble](https://youtu.be/R-2rDO9Mbi0)
