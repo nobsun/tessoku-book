@@ -2,8 +2,8 @@ module Main where
 
 import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
-import Data.Array
-import Data.List
+import Data.Array ( accumArray, elems )
+import Data.List ( transpose, scanl' )
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
