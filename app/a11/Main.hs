@@ -22,4 +22,16 @@ showInt = B.pack . show
 
 solve :: [[Int]] -> [[Int]]
 solve dds = case dds of
-    _ -> undefined
+    [n,x]:as:_ -> [[ searchIndex arr x ]]
+        where
+            arr = listArray (1,n) as
+
+searchIndex :: Array Int Int -> Int -> Int
+searchIndex arr x = iter (bounds arr) x
+    where
+        iter (l,r) x = case compare x (arr ! m) of
+            LT -> iter (l,m-1) x
+            EQ -> m
+            GT -> iter (m+1,r) x
+            where
+                m = (l + r) `div` 2

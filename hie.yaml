@@ -69,5 +69,8 @@ cradle:
     - path: "./app/a10/Main.hs"
       component: "tessoku-book:exe:A10"
 
+    - path: "./app/a11/Main.hs"
+      component: "tessoku-book:exe:A11"
+
     - path: "./src/Lib.hs"
       component: "tessoku-book:lib"
