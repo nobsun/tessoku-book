@@ -2,8 +2,8 @@ module Main where
 
 import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
-import Data.Array
-import Data.List
+import Data.Array ( (!), bounds, listArray, Array )
+import Data.List ( sort )
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
@@ -40,5 +40,3 @@ searchIndex arr = iter (bounds arr)
                 _  -> iter (l,m-1) x
                 where
                     m = (l + r) `div` 2
-
-
