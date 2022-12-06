@@ -168,11 +168,11 @@ executables:
     ghc-options:
     - -rtsopts
 
-  # B12:
-  #   main:                Main.hs
-  #   source-dirs:         app/b12
-  #   ghc-options:
-  #   - -rtsopts
+  B12:
+    main:                Main.hs
+    source-dirs:         app/b12
+    ghc-options:
+    - -rtsopts
 
 tests:
   tessoku-book-test:
