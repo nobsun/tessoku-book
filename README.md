@@ -38,9 +38,18 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A08: Two Dimensional Sum](https://youtu.be/h-OUrRzfdN4)
     - [x] [B08: Counting Points](https://youtu.be/TsSzOP8W-UU)
     - [x] [A09: Winter in ALGO Kingdom](https://youtu.be/mXEvEBkYqdM)
-    - [ ] [B09: Papers]()
-    - [ ] [A10: Resort Hotel]()
+    - [x] [B09: Papers]()
+    - [x] [A10: Resort Hotel]()
 - 3 章
+    - [x] [A11: Binary Search 1](https://youtu.be/StLFc9C8cls)
+    - [x] [B11: Binary Search 2](https://youtu.be/Pr_H3a5cAqo)
+    - [x] [A12: Printer](https://youtu.be/_H0uJq2EUpQ)
+    - [x] [B12: Equation](https://youtu.be/d5YPYlKcbxo)
+    - [ ] [A13: Close Pair]()
+    - [ ] [B13: Supermarket 2]()
+    - [ ] [A14: Four Boxes]()
+    - [ ] [B14: Another Subset Sum]()
+    - [ ] [A15: Compression]()
 - 4 章
 - 5 章
 - 6 章
