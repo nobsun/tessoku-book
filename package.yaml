@@ -162,6 +162,18 @@ executables:
     ghc-options:
     - -rtsopts
 
+  A12:
+    main:                Main.hs
+    source-dirs:         app/a12
+    ghc-options:
+    - -rtsopts
+
+  # B12:
+  #   main:                Main.hs
+  #   source-dirs:         app/b12
+  #   ghc-options:
+  #   - -rtsopts
+
 tests:
   tessoku-book-test:
     main:                spec.hs
