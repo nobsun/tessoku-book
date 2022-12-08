@@ -45,9 +45,9 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B11: Binary Search 2](https://youtu.be/Pr_H3a5cAqo)
     - [x] [A12: Printer](https://youtu.be/_H0uJq2EUpQ)
     - [x] [B12: Equation](https://youtu.be/d5YPYlKcbxo)
-    - [ ] [A13: Close Pair]()
-    - [ ] [B13: Supermarket 2]()
-    - [ ] [A14: Four Boxes]()
+    - [x] [A13: Close Pair](https://youtu.be/KiXQVixpamg)
+    - [x] [B13: Supermarket 2](https://youtu.be/kw_KKNjFcW0)
+    - [x] [A14: Four Boxes](https://youtu.be/EkviHcjPodg)
     - [ ] [B14: Another Subset Sum]()
     - [ ] [A15: Compression]()
 - 4 章

@@ -27,6 +27,7 @@ dependencies:
 - time
 - hspec
 - array
+- containers
 
 library:
   source-dirs: src
@@ -183,6 +184,18 @@ executables:
   B13:
     main:                Main.hs
     source-dirs:         app/b13
+    ghc-options:
+    - -rtsopts
+
+  A14:
+    main:                Main.hs
+    source-dirs:         app/a14
+    ghc-options:
+    - -rtsopts
+
+  B14:
+    main:                Main.hs
+    source-dirs:         app/b14
     ghc-options:
     - -rtsopts
 
