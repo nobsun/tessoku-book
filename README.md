@@ -48,9 +48,22 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A13: Close Pair](https://youtu.be/KiXQVixpamg)
     - [x] [B13: Supermarket 2](https://youtu.be/kw_KKNjFcW0)
     - [x] [A14: Four Boxes](https://youtu.be/EkviHcjPodg)
-    - [ ] [B14: Another Subset Sum]()
-    - [ ] [A15: Compression]()
+    - [x] [B14: Another Subset Sum](https://youtu.be/Fh2ivzJaivw)
+    - [x] [A15: Compression](https://youtu.be/-YQ2kh8zSSs)
 - 4 章
+    - [x] [A16: Dungeon 1](https://youtu.be/2qD_iIPUiJQ)
+    - [x] [B16: Frog 1](https://youtu.be/u9HP2gK2htM)
+    - [ ] [A17: Dungeon 2]()
+    - [ ] [B17: Frog 1 with restoration]()
+    - [ ] [A18: Subset Sum]()
+    - [ ] [B18: Subset Sum wit Restoration]()
+    - [ ] [A19: Knapsack 1]()
+    - [ ] [B19: Knapsack 2]()
+    - [ ] [A20: LCS]()
+    - [ ] [B20: Edit Distance]()
+    - [ ] [A21: Block Game]()
+    - [ ] [B21: Longest Subpalindrome]()
+    - [ ] [A22: Sugoroku]()
 - 5 章
 - 6 章
 - 7 章
