@@ -22,4 +22,17 @@ showInt = B.pack . show
 
 solve :: [[Int]] -> [[Int]]
 solve dds = case dds of
-    _ -> undefined
+    [n]:hs:_ -> [[ frog hs ]]
+
+frog :: [Int] -> Int
+frog hs = count (zipWith ((abs .) . subtract) hs (drop 1 hs))
+                (zipWith ((abs .) . subtract) hs (drop 2 hs))
+
+count :: [Int] -> [Int] -> Int
+count (a:as) bs
+    = iter 0 a as bs
+    where
+        iter _ q [] _ = q
+        iter p q (a:as) (b:bs)
+            = iter q (min (a+q) (b+p)) as bs
+
