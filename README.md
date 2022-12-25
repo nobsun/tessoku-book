@@ -58,7 +58,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A18: Subset Sum](https://youtu.be/_VOrVrIIDtM)
     - [x] [B18: Subset Sum wit Restoration](https://youtu.be/LAJ67RJ7qhU)
     - [x] [A19&B19: Knapsack](https://youtu.be/xqOMAWVGvZw)
-    - [ ] [A20: LCS]()
+    - [x] [A20: LCS](https://youtu.be/X3Tlty-tHfo)
     - [ ] [B20: Edit Distance]()
     - [ ] [A21: Block Game]()
     - [ ] [B21: Longest Subpalindrome]()
