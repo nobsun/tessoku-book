@@ -59,10 +59,14 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B18: Subset Sum wit Restoration](https://youtu.be/LAJ67RJ7qhU)
     - [x] [A19&B19: Knapsack](https://youtu.be/xqOMAWVGvZw)
     - [x] [A20: LCS](https://youtu.be/X3Tlty-tHfo)
-    - [ ] [B20: Edit Distance]()
+    - [x] [B20: Edit Distance](https://youtu.be/RNQKMiAIzJ0)
     - [ ] [A21: Block Game]()
     - [ ] [B21: Longest Subpalindrome]()
     - [ ] [A22: Sugoroku]()
+    - [ ] [A23: All Free]()
+    - [ ] [B23: Traveling Salesman Problem]()
+    - [ ] [A24: LIS]()
+    - [ ] [B24: Many Boxes]()
 - 5 章
 - 6 章
 - 7 章
