@@ -277,6 +277,12 @@ executables:
     ghc-options:
     - -rtsopts
 
+  A22:
+    main:                Main.hs
+    source-dirs:         app/a22
+    ghc-options:
+    - -rtsopts
+
 tests:
   tessoku-book-test:
     main:                spec.hs
