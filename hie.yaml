@@ -135,5 +135,20 @@ cradle:
     - path: "./app/a22/Main.hs"
       component: "tessoku-book:exe:A22"
 
+    - path: "./app/a23/Main.hs"
+      component: "tessoku-book:exe:A23"
+
+    - path: "./app/b23/Main.hs"
+      component: "tessoku-book:exe:B23"
+
+    - path: "./app/a24/Main.hs"
+      component: "tessoku-book:exe:A24"
+
+    - path: "./app/b24/Main.hs"
+      component: "tessoku-book:exe:B24"
+
+    - path: "./app/a25/Main.hs"
+      component: "tessoku-book:exe:A25"
+
     - path: "./src/Lib.hs"
       component: "tessoku-book:lib"

@@ -1,5 +1,5 @@
 name:                tessoku-book
-version:             0.4.7.0
+version:             0.4.8.0
 github:              "nobsun/tessoku-book"
 license:             BSD3
 author:              "Nobuo Yamashita"
@@ -280,6 +280,36 @@ executables:
   A22:
     main:                Main.hs
     source-dirs:         app/a22
+    ghc-options:
+    - -rtsopts
+
+  A23:
+    main:                Main.hs
+    source-dirs:         app/a23
+    ghc-options:
+    - -rtsopts
+
+  B23:
+    main:                Main.hs
+    source-dirs:         app/b23
+    ghc-options:
+    - -rtsopts
+
+  A24:
+    main:                Main.hs
+    source-dirs:         app/a24
+    ghc-options:
+    - -rtsopts
+
+  B24:
+    main:                Main.hs
+    source-dirs:         app/b24
+    ghc-options:
+    - -rtsopts
+
+  A25:
+    main:                Main.hs
+    source-dirs:         app/a25
     ghc-options:
     - -rtsopts
 
