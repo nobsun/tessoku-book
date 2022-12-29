@@ -30,7 +30,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B04: Binary Representation 2](https://youtu.be/PI2ltR8w4Us)
     - [x] [A05: Three Cards](https://youtu.be/qjPcOtFXGBg)
 
-- [ ] 2 章
+- [x] 2 章
     - [x] [A06: How Many Guests?](https://youtu.be/CYTRqX_UAyw)
     - [x] [B06: Lottery](https://youtu.be/arLAU-6gotE)
     - [x] [A07: Event Attendance](https://youtu.be/UFHMs9b0ceQ)
@@ -40,7 +40,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A09: Winter in ALGO Kingdom](https://youtu.be/mXEvEBkYqdM)
     - [x] [B09: Papers]()
     - [x] [A10: Resort Hotel]()
-- 3 章
+- [x] 3 章
     - [x] [A11: Binary Search 1](https://youtu.be/StLFc9C8cls)
     - [x] [B11: Binary Search 2](https://youtu.be/Pr_H3a5cAqo)
     - [x] [A12: Printer](https://youtu.be/_H0uJq2EUpQ)
@@ -50,7 +50,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A14: Four Boxes](https://youtu.be/EkviHcjPodg)
     - [x] [B14: Another Subset Sum](https://youtu.be/Fh2ivzJaivw)
     - [x] [A15: Compression](https://youtu.be/-YQ2kh8zSSs)
-- 4 章
+- [ ] 4 章
     - [x] [A16: Dungeon 1](https://youtu.be/2qD_iIPUiJQ)
     - [x] [B16: Frog 1](https://youtu.be/u9HP2gK2htM)
     - [x] [A17: Dungeon 2](https://youtu.be/D8_qEjed1DA)
@@ -67,9 +67,9 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [ ] [B23: Traveling Salesman Problem]()
     - [ ] [A24: LIS]()
     - [ ] [B24: Many Boxes]()
-- 5 章
-- 6 章
-- 7 章
-- 8 章
-- 9 章
-- 10 章
+- [ ] 5 章
+- [ ] 6 章
+- [ ] 7 章
+- [ ] 8 章
+- [ ] 9 章
+- [ ] 10 章
