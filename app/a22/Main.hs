@@ -22,4 +22,10 @@ showInt = B.pack . show
 
 solve :: [[Int]] -> [[Int]]
 solve dds = case dds of
-    _ -> undefined
+    [n]:as:bs:_ -> [[da ! n]] where
+        iab = zip3 [1 .. n] as bs
+        ca = accumArray (flip (:)) [] (1,n)
+           $ (1,0) : concat 
+           [ [(a, d+100), (b, d+150)] 
+           | (i,a,b) <- iab, let d = da ! i]
+        da = maximum . (minBound :) <$> ca 
