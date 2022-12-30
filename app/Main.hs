@@ -1,3 +1,6 @@
+{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE BangPatterns #-}
+{-# LANGUAGE ScopedTypeVariables #-}
 module Main where
 
 import qualified Data.ByteString.Char8 as B
@@ -8,18 +11,51 @@ import Data.List
 main :: IO ()
 main = B.interact (encode . solve . decode)
 
-decode :: B.ByteString -> [[Int]]
-decode =  map (map readInt . B.words) . B.lines
+solve :: [[Int]] -> [[Int]]
+solve dss = case dss of
+    _ -> undefined
+
+--
+
+class InterfaceForOJS a where
+    readB :: B.ByteString -> a
+    readBs :: B.ByteString -> [a]
+    readBs = map readB . B.words
+    decode :: B.ByteString -> [[a]]
+    decode = map readBs . B.lines
+
+    showB :: a -> B.ByteString
+    showBs :: [a] -> B.ByteString
+    showBs = B.unwords . map showB
+    encode :: [[a]] -> B.ByteString
+    encode = B.unlines . map showBs
+
+instance InterfaceForOJS Int where
+    readB = readInt
+    showB = showInt
+
+instance InterfaceForOJS String where
+    readB = readStr
+    showB = showStr
+
+instance InterfaceForOJS Double where
+    readB = readDbl
+    showB = showDbl
 
 readInt :: B.ByteString -> Int
 readInt = fst . fromJust . B.readInt
 
-encode :: [[Int]] -> B.ByteString
-encode = B.unlines . map (B.unwords . map showInt)
-
 showInt :: Int -> B.ByteString
 showInt = B.pack . show
 
-solve :: [[Int]] -> [[Int]]
-solve dss = case dss of
-    _ -> undefined
+readStr :: B.ByteString -> String
+readStr = B.unpack
+
+showStr :: String -> B.ByteString
+showStr = B.pack
+
+readDbl :: B.ByteString -> Double
+readDbl = read . B.unpack
+
+showDbl :: Double -> B.ByteString
+showDbl = B.pack . show
