@@ -63,7 +63,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A21: Block Game](https://youtu.be/AWfa8EduYyQ)
     - [x] [B21: Longest Subpalindrome](https://youtu.be/YzvLyTIUcdM)
     - [x] [A22: Sugoroku](https://youtu.be/jDguOuEKW1U)
-    - [x] [A23: All Free]()
+    - [x] [A23: All Free](https://youtu.be/3wZYgYiEGso)
     - [ ] [B23: Traveling Salesman Problem]()
     - [ ] [A24: LIS]()
     - [ ] [B24: Many Boxes]()
