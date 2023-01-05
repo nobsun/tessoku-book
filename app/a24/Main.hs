@@ -4,6 +4,7 @@ import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
 import Data.Array
 import Data.List
+import qualified Data.IntSet as S
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
@@ -22,4 +23,17 @@ showInt = B.pack . show
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [n]:as:_ -> [[lis as]]
+
+lis :: [Int] -> Int
+lis = pred . S.size . foldl phi (S.singleton 0)
+    where
+        phi s a = case S.lookupLE a s of
+            Just b
+                | b < a -> S.insert a (psi s a)
+            _           -> s
+        psi s a = case S.lookupGT a s of
+            Just c -> S.delete c s
+            _      -> s
+
+
