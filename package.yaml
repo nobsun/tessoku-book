@@ -1,10 +1,10 @@
 name:                tessoku-book
-version:             0.4.9.0
+version:             0.4.9.1
 github:              "nobsun/tessoku-book"
 license:             BSD3
 author:              "Nobuo Yamashita"
 maintainer:          "nobsun@sampou.org"
-copyright:           "Copyright: (c) 2022 Nobuo Yamashita"
+copyright:           "Copyright: (c) 2022-2023 Nobuo Yamashita"
 
 extra-source-files:
 - README.md
