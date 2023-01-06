@@ -67,7 +67,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B23: Traveling Salesman Problem](https://youtu.be/IFjPWcbVa0A)
     - [x] [A24: LIS](https://youtu.be/3Kl4yhPl82w)
     - [x] [B24: Many Boxes](https://youtu.be/HpnXCm5B2lw)
-    - [x] [A25: Number of Routes]()
+    - [x] [A25: Number of Routes](https://youtu.be/_OSXko4Gd4k)
 - [ ] 5 章
 - [ ] 6 章
 - [ ] 7 章
