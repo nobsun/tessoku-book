@@ -8,6 +8,15 @@ import Data.Maybe ( fromJust )
 import Data.Array
 import Data.List
 import qualified Data.IntSet as S
+import Debug.Trace
+
+debug :: Bool
+debug = True
+
+tracing :: String -> a -> a
+tracing msg
+    | debug     = trace msg
+    | otherwise = id
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
@@ -21,11 +30,16 @@ lis = pred . S.size . foldl phi (S.singleton 0)
     where
         phi s a = case S.lookupLE a s of
             Just b
-                | b < a -> S.insert a (psi s a)
-            _           -> s
+                | b < a     
+                -> tracing ("b <  a (="++show a++") : "++show s') s'
+            _   -> tracing ("b == a (="++show a++") : "++show s ) s
+            where s' = S.insert a (psi s a)
         psi s a = case S.lookupGT a s of
-            Just c -> S.delete c s
-            _      -> s
+            Just c -> tracing ("    psi: delete "++show c) $ S.delete c s
+            _      -> tracing "    psi: id s"            s
+
+test :: [Int]
+test = [3,1,4,1,5,9,2,6,5,3,5,8,9,3]
 
 --
 
