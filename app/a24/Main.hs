@@ -4,7 +4,7 @@
 module Main where
 
 import qualified Data.ByteString.Char8 as B
-import Data.Maybe ( fromJust )
+import Data.Maybe
 import Data.Array
 import Data.List
 import qualified Data.IntSet as S
@@ -17,15 +17,10 @@ solve dss = case dss of
     [n]:as:_ -> [[lis as]]
 
 lis :: [Int] -> Int
-lis = pred . S.size . foldl phi (S.singleton 0)
+lis = S.size . foldl phi S.empty
     where
-        phi s a = case S.lookupLE a s of
-            Just b
-                | b < a -> S.insert a (psi s a)
-            _           -> s
-        psi s a = case S.lookupGT a s of
-            Just c -> S.delete c s
-            _      -> s
+        phi s a = S.insert a 
+                $ maybe s (`S.delete` s) (S.lookupGE a s)
 
 --
 
