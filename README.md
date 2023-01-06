@@ -64,9 +64,10 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B21: Longest Subpalindrome](https://youtu.be/YzvLyTIUcdM)
     - [x] [A22: Sugoroku](https://youtu.be/jDguOuEKW1U)
     - [x] [A23: All Free](https://youtu.be/3wZYgYiEGso)
-    - [ ] [B23: Traveling Salesman Problem]()
-    - [ ] [A24: LIS]()
-    - [ ] [B24: Many Boxes]()
+    - [x] [B23: Traveling Salesman Problem](https://youtu.be/IFjPWcbVa0A)
+    - [x] [A24: LIS](https://youtu.be/3Kl4yhPl82w)
+    - [x] [B24: Many Boxes](https://youtu.be/HpnXCm5B2lw)
+    - [x] [A25: Number of Routes]()
 - [ ] 5 章
 - [ ] 6 章
 - [ ] 7 章
