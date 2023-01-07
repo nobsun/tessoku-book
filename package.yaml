@@ -1,5 +1,5 @@
 name:                tessoku-book
-version:             0.4.10.0
+version:             0.5.1.1
 github:              "nobsun/tessoku-book"
 license:             BSD3
 author:              "Nobuo Yamashita"
@@ -310,6 +310,120 @@ executables:
   A25:
     main:                Main.hs
     source-dirs:         app/a25
+    ghc-options:
+    - -rtsopts
+
+  A26:
+    main:                Main.hs
+    source-dirs:         app/a26
+    ghc-options:
+    - -rtsopts
+
+  B26:
+    main:                Main.hs
+    source-dirs:         app/b26
+    ghc-options:
+    - -rtsopts
+
+  A27:
+    main:                Main.hs
+    source-dirs:         app/a27
+    ghc-options:
+    - -rtsopts
+
+  B27:
+    main:                Main.hs
+    source-dirs:         app/b27
+    ghc-options:
+    - -rtsopts
+
+  A28:
+    main:                Main.hs
+    source-dirs:         app/a28
+    ghc-options:
+    - -rtsopts
+
+  B28:
+    main:                Main.hs
+    source-dirs:         app/b28
+    ghc-options:
+    - -rtsopts
+
+  A29:
+    main:                Main.hs
+    source-dirs:         app/a29
+    ghc-options:
+    - -rtsopts
+
+  B29:
+    main:                Main.hs
+    source-dirs:         app/b29
+    ghc-options:
+    - -rtsopts
+
+  A30:
+    main:                Main.hs
+    source-dirs:         app/a30
+    ghc-options:
+    - -rtsopts
+
+  B30:
+    main:                Main.hs
+    source-dirs:         app/b30
+    ghc-options:
+    - -rtsopts
+
+  A31:
+    main:                Main.hs
+    source-dirs:         app/a31
+    ghc-options:
+    - -rtsopts
+
+  B31:
+    main:                Main.hs
+    source-dirs:         app/b31
+    ghc-options:
+    - -rtsopts
+
+  A32:
+    main:                Main.hs
+    source-dirs:         app/a32
+    ghc-options:
+    - -rtsopts
+
+  B32:
+    main:                Main.hs
+    source-dirs:         app/b32
+    ghc-options:
+    - -rtsopts
+
+  A33:
+    main:                Main.hs
+    source-dirs:         app/a33
+    ghc-options:
+    - -rtsopts
+
+  B33:
+    main:                Main.hs
+    source-dirs:         app/b33
+    ghc-options:
+    - -rtsopts
+
+  A34:
+    main:                Main.hs
+    source-dirs:         app/a34
+    ghc-options:
+    - -rtsopts
+
+  B34:
+    main:                Main.hs
+    source-dirs:         app/b34
+    ghc-options:
+    - -rtsopts
+
+  A35:
+    main:                Main.hs
+    source-dirs:         app/a35
     ghc-options:
     - -rtsopts
 

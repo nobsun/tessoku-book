@@ -50,7 +50,7 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [A14: Four Boxes](https://youtu.be/EkviHcjPodg)
     - [x] [B14: Another Subset Sum](https://youtu.be/Fh2ivzJaivw)
     - [x] [A15: Compression](https://youtu.be/-YQ2kh8zSSs)
-- [ ] 4 章
+- [x] 4 章
     - [x] [A16: Dungeon 1](https://youtu.be/2qD_iIPUiJQ)
     - [x] [B16: Frog 1](https://youtu.be/u9HP2gK2htM)
     - [x] [A17: Dungeon 2](https://youtu.be/D8_qEjed1DA)
@@ -69,6 +69,25 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
     - [x] [B24: Many Boxes](https://youtu.be/HpnXCm5B2lw)
     - [x] [A25: Number of Routes](https://youtu.be/_OSXko4Gd4k)
 - [ ] 5 章
+    - [x] [A26: Prime Check]()
+    - [x] [B26: Output Prime Numbers]()
+    - [ ] [A27: Calculate GCD]()
+    - [ ] [B27: Calculate LCM]()
+    - [ ] [A28: Blackboard]()
+    - [ ] [B28: Fibonacci Easy]()
+    - [ ] [A29: Power]()
+    - [ ] [B29: Power Hard]()
+    - [ ] [A30: Combination]()
+    - [ ] [B30: Combination 2]()
+    - [ ] [A31: Divisors]()
+    - [ ] [B31: Divisors Hard]()
+    - [ ] [A32: Game 1]()
+    - [ ] [B32: Game 5]()
+    - [ ] [A33: Game 2]()
+    - [ ] [B33: Game 6]()
+    - [ ] [A34: Game 3]()
+    - [ ] [B34: Game 7]()
+    - [ ] [A35: Game 4]()
 - [ ] 6 章
 - [ ] 7 章
 - [ ] 8 章

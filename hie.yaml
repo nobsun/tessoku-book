@@ -150,5 +150,59 @@ cradle:
     - path: "./app/a25/Main.hs"
       component: "tessoku-book:exe:A25"
 
+    - path: "./app/a26/Main.hs"
+      component: "tessoku-book:exe:A26"
+
+    - path: "./app/b26/Main.hs"
+      component: "tessoku-book:exe:B26"
+
+    - path: "./app/a27/Main.hs"
+      component: "tessoku-book:exe:A27"
+
+    - path: "./app/b27/Main.hs"
+      component: "tessoku-book:exe:B27"
+
+    - path: "./app/a28/Main.hs"
+      component: "tessoku-book:exe:A28"
+
+    - path: "./app/b28/Main.hs"
+      component: "tessoku-book:exe:B28"
+
+    - path: "./app/a29/Main.hs"
+      component: "tessoku-book:exe:A29"
+
+    - path: "./app/b29/Main.hs"
+      component: "tessoku-book:exe:B29"
+
+    - path: "./app/a30/Main.hs"
+      component: "tessoku-book:exe:A30"
+
+    - path: "./app/b30/Main.hs"
+      component: "tessoku-book:exe:B30"
+
+    - path: "./app/a31/Main.hs"
+      component: "tessoku-book:exe:A31"
+
+    - path: "./app/b31/Main.hs"
+      component: "tessoku-book:exe:B31"
+
+    - path: "./app/a32/Main.hs"
+      component: "tessoku-book:exe:A32"
+
+    - path: "./app/b32/Main.hs"
+      component: "tessoku-book:exe:B32"
+
+    - path: "./app/a33/Main.hs"
+      component: "tessoku-book:exe:A33"
+
+    - path: "./app/b33/Main.hs"
+      component: "tessoku-book:exe:B33"
+
+    - path: "./app/a34/Main.hs"
+      component: "tessoku-book:exe:A34"
+
+    - path: "./app/b34/Main.hs"
+      component: "tessoku-book:exe:B34"
+
     - path: "./src/Lib.hs"
       component: "tessoku-book:lib"

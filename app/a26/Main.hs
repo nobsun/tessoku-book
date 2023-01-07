@@ -5,15 +5,45 @@ module Main where
 
 import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
-import Data.Array
-import Data.List
+import qualified Data.IntSet as S
+import Data.Bool
+import Data.List hiding ( (\\) )
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
 
-solve :: [[Int]] -> [[Int]]
+solve :: [[Int]] -> [[String]]
 solve dss = case dss of
-    _ -> undefined
+    [q]:xss -> map judge xss
+
+judge :: [Int] -> [String]
+judge [x] = bool ["No"] ["Yes"] (S.member x primeSet)
+
+primeSet :: S.IntSet
+primeSet = S.fromList $ takeWhile (300000 >) primes
+
+primes :: [Int]
+primes = 2 : ([3 ..] \\ composites)
+    where
+        composites = mergeAll [ multiples p | p <- primes ]
+
+multiples :: Int -> [Int]
+multiples n = map (n *) [n ..]
+
+(\\) :: [Int] -> [Int] -> [Int]
+xxs@(x:xs) \\ yys@(y:ys) = case compare x y of
+    LT -> x : (xs \\ yys)
+    EQ -> xs \\ ys
+    GT -> xxs \\ ys
+
+mergeAll :: [[Int]] -> [Int]
+mergeAll = foldr merge [] 
+    where
+        merge (x:xs) ys = x : merge' xs ys
+        merge' xxs@(x:xs) yys@(y:ys) = case compare x y of
+            LT -> x : merge' xs yys
+            EQ -> x : merge' xs ys
+            GT -> y : merge' xxs ys
 
 --
 
