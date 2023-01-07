@@ -11,9 +11,13 @@ import Data.List
 main :: IO ()
 main = B.interact (encode . solve . decode)
 
-solve :: [[Int]] -> [[Int]]
+solve :: [[String]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    _:tas -> map (:[]) $ tail $ scanl phi 0 tas
+    where
+        phi m ["+", a] = (m + read a) `mod` 10000
+        phi m ["-", a] = (m - read a) `mod` 10000
+        phi m ["*", a] = (m * read a) `mod` 10000
 
 --
 
