@@ -13,7 +13,21 @@ main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [n]:_ -> [[fib n]]
+
+fib :: Int -> Int
+fib = iter 0 1
+    where
+        iter a !b 1 = b
+        iter a !b n = iter b (a +% b) (n - 1)
+
+-- modula arithmetic
+
+base :: Int
+base = 10^9 + 7
+
+(+%) :: Int -> Int -> Int
+m +% n = (m + n) `mod` base
 
 --
 
