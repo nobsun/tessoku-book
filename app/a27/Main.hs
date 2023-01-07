@@ -7,13 +7,19 @@ import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
 import Data.Array
 import Data.List
+import Prelude hiding ( gcd, lcm )
 
 main :: IO ()
 main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [a,b]:_ -> [[ gcd a b ]]
+
+gcd :: Int -> Int -> Int
+gcd a b = case a `mod` b of
+    0 -> b
+    r -> gcd b r
 
 --
 
