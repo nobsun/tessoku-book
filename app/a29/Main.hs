@@ -13,7 +13,23 @@ main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [a,b]:_ -> [[power a b]]
+
+power :: Int -> Int -> Int
+power a b = case b of
+    0 -> 1
+    _ -> case b `divMod` 2 of
+        (q, 0) -> square (power a q)
+        (q, _) -> a *% square (power a q)
+
+square :: Int -> Int
+square x = x *% x
+
+(*%) :: Int -> Int -> Int
+m *% n = m * n `mod` base
+
+base :: Int
+base = 10^9 + 7
 
 --
 
