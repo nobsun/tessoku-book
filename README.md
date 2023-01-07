@@ -71,8 +71,8 @@ YouTubeの[SampouOrgチャネル](youtube.com/@SampouOrg)で[『競技プログ�
 - [ ] 5 章
     - [x] [A26: Prime Check](https://youtu.be/C1oKkWvHnAE)
     - [x] [B26: Output Prime Numbers](https://youtu.be/C1oKkWvHnAE)
-    - [x] [A27: Calculate GCD]()
-    - [x] [B27: Calculate LCM]()
+    - [x] [A27: Calculate GCD](https://youtu.be/pOhBuX6VVr8)
+    - [x] [B27: Calculate LCM](https://youtu.be/pOhBuX6VVr8)
     - [ ] [A28: Blackboard]()
     - [ ] [B28: Fibonacci Easy]()
     - [ ] [A29: Power]()
