@@ -5,7 +5,7 @@ module Main where
 
 import qualified Data.ByteString.Char8 as B
 import Data.Maybe ( fromJust )
-import Data.Array
+import Data.Function
 import Data.List
 
 main :: IO ()
@@ -13,7 +13,20 @@ main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [n]:_ -> [[ count [3,5,7] n ]]
+
+count :: [Int] -> Int -> Int
+count ds n
+    = snd
+    $ foldl' phi (1,0)
+    $ groupBy ((==) `on` length)
+    $ tail
+    $ sortOn length
+    $ subsequences ds
+    where
+        phi (a,s) bss
+            = ( negate a
+              , s + a * sum [ n `div` product bs | bs <- bss] )
 
 --
 

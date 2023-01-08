@@ -13,7 +13,9 @@ main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [n]:_ -> [[ n `div` 3
+              + n `div` 5
+              - n `div` 15]]
 
 --
 
