@@ -13,7 +13,35 @@ main = B.interact (encode . solve . decode)
 
 solve :: [[Int]] -> [[Int]]
 solve dss = case dss of
-    _ -> undefined
+    [n,r]:_ -> [[comb n r]]
+
+comb :: Int -> Int -> Int
+comb n r = prodMod [n-(r-1) .. n] /% prodMod [1 .. r]
+
+prodMod :: [Int] -> Int
+prodMod = foldl' (*%) 1
+
+power :: Int -> Int -> Int
+power a b = case b of
+    0 -> 1
+    _ -> case b `divMod` 2 of
+        (q, 0) -> square (power a q)
+        (q, _) -> a *% square (power a q)
+
+square :: Int -> Int
+square x = x *% x
+
+(*%) :: Int -> Int -> Int
+m *% n = m * n `mod` base
+
+(/%) :: Int -> Int -> Int
+m /% n = m *% recipMod n
+
+recipMod :: Int -> Int
+recipMod a = power a (base - 2)
+
+base :: Int
+base = 10^9 + 7
 
 --
 
